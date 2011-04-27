@@ -1,0 +1,13 @@
+# http://www.google.fr/search?ie=UTF-8&oe=UTF-8&sourceid=navclient&gfns=1&q=${1}
+# sr google -l ${1}
+# wget -O google -U="ikerc-wget" "http://www.google.fr/search?q=orange&btnI=I%27m%20Feeling%20Lucky&num=30"
+
+#wget -O .seeks-search "http://seeks.fr/search?q=${1}&rpp=1&output=json&engines=google" && g2lachance=`cat .seeks-search | sed -e 's/{"query":.*"snippets":\[/test/g' | sed -e 's/,/, \n/g' | grep url | head -1 | sed -e 's/"url":"//g' | sed -e 's/",//g' | sed -e 's/http:\/\///g' | sed -e 's/\/.*//g'`;
+
+
+echo ".g2lachance: ${1}";
+
+g2lachance=`curl "http://seeks.fr/search?q=${1}&rpp=1&output=json&engines=google" | sed -e 's/{"query":.*"snippets":\[/test/g' | sed -e 's/,/, \n/g' | grep url | head -1 | sed -e 's/"url":"//g' | sed -e 's/",//g' | sed -e 's/http:\/\///g' | sed -e 's/\/.*//g'`;
+#echo "${g2lachance}";
+
+sh whoois ${g2lachance}

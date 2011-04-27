@@ -1,0 +1,35 @@
+echo "whoois ${1}";
+
+ip=`ping -n -c 1 ${1} | head -1 | awk '{print $3}' | sed -e 's/(//g' | sed -e 's/)//g'`;
+	echo "IP:  ${ip}";echo "whois ${ip} ?";
+		sleep 1;
+
+whois_fai=`whois ${ip} | grep netname: | sed -e 's/netname:/FAI: /g' | sed -e 's/   / /g'`;
+	echo "${whois_fai}";
+		sleep 1;
+
+netrange=`whois ${ip} | grep inetnum: | sed -e 's/inetnum:/NET RANGE: /g' | sed -e 's/   / /g'`;
+	echo "net range ${ip} ?";
+		sleep 1;
+	echo "${netrange}";
+		sleep 1;
+
+nr=`echo "NET RANGE:   ${netrange}" | sed -e 's/NET RANGE:  //g'`;
+ipcalcnetrange=`ipcalc ${nr} | grep /`;
+	echo "ipcalc range ${netrange} ?";
+		sleep 1;
+	echo "${ipcalcnetrange}";
+		sleep 1;
+
+ipcalcdev=`echo "${ipcalcnetrange}" | sed -e 'sA/A Ag'`;
+	echo "ipcalc dev : ${ipcalcdev}";
+		sleep 1;
+
+ipcalcmaster=`echo "${ipcalcdev}" | awk '{print $1}'`;
+	echo "ipcalcmaster: ${ipcalcmaster}";
+		sleep 1;
+
+ipcalcmask=`echo "${ipcalcdev}" | awk '{print $2}'`;
+        echo "ipcalcmask: ${ipcalcmask}";
+                sleep 1;
+

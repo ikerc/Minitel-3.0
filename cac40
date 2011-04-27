@@ -1,0 +1,7 @@
+cac40s="ACCOR ALCATEL-LUCENT ALSTOM AXA BOUYGUES EADS";
+
+for cac40 in $cac40s
+	do
+		echo ${cac40}
+		sh g2lachance-whoois ${cac40}
+	done;	
