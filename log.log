@@ -1,0 +1,98 @@
+sh cac40 
+ACCOR
+.g2lachance: ACCOR
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5518  100  5518    0     0  10234      0 --:--:-- --:--:-- --:--:-- 14185
+whoois www.accorhotels.com
+IP:  194.112.114.174
+whois 194.112.114.174 ?
+FAI:   CW-AKAMAI-NET
+net range 194.112.114.174 ?
+NET RANGE:   194.112.114.128 - 194.112.114.255
+ipcalc range NET RANGE:   194.112.114.128 - 194.112.114.255 ?
+194.112.114.128/25
+ipcalc dev : 194.112.114.128 25
+ipcalcmaster: 194.112.114.128
+ipcalcmask: 25
+ALCATEL-LUCENT
+.g2lachance: ALCATEL-LUCENT
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5406  100  5406    0     0  12035      0 --:--:-- --:--:-- --:--:-- 18577
+whoois www.alcatel-lucent.com
+IP:  2.18.99.82
+whois 2.18.99.82 ?
+FAI:   AKAMAI-PA
+net range 2.18.99.82 ?
+NET RANGE:   2.18.96.0 - 2.18.111.255
+ipcalc range NET RANGE:   2.18.96.0 - 2.18.111.255 ?
+2.18.96.0/20
+ipcalc dev : 2.18.96.0 20
+ipcalcmaster: 2.18.96.0
+ipcalcmask: 20
+ALSTOM
+.g2lachance: ALSTOM
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5456  100  5456    0     0  13389      0 --:--:-- --:--:-- --:--:-- 20984
+whoois www.alstom.com
+IP:  94.247.97.149
+whois 94.247.97.149 ?
+FAI:   UKS-FSNM
+net range 94.247.97.149 ?
+NET RANGE:   94.247.97.128 - 94.247.97.255
+ipcalc range NET RANGE:   94.247.97.128 - 94.247.97.255 ?
+94.247.97.128/25
+ipcalc dev : 94.247.97.128 25
+ipcalcmaster: 94.247.97.128
+ipcalcmask: 25
+AXA
+.g2lachance: AXA
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5021  100  5021    0     0  12482      0 --:--:-- --:--:-- --:--:-- 19164
+whoois www.axa.com
+IP:  171.18.27.49
+whois 171.18.27.49 ?
+FAI:   AXA-TECH-NET1
+net range 171.18.27.49 ?
+NET RANGE:   171.18.0.0 - 171.18.255.255
+ipcalc range NET RANGE:   171.18.0.0 - 171.18.255.255 ?
+171.18.0.0/16
+ipcalc dev : 171.18.0.0 16
+ipcalcmaster: 171.18.0.0
+ipcalcmask: 16
+BOUYGUES
+.g2lachance: BOUYGUES
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5273  100  5273    0     0  11371      0 --:--:-- --:--:-- --:--:-- 16224
+whoois www.bouyguestelecom.fr
+IP:  80.156.248.18
+whois 80.156.248.18 ?
+FAI:   AKAMAI-TECHNOLOGIES-PARIS-6
+net range 80.156.248.18 ?
+NET RANGE:   80.156.248.0 - 80.156.248.127
+ipcalc range NET RANGE:   80.156.248.0 - 80.156.248.127 ?
+80.156.248.0/25
+ipcalc dev : 80.156.248.0 25
+ipcalcmaster: 80.156.248.0
+ipcalcmask: 25
+EADS
+.g2lachance: EADS
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  5608  100  5608    0     0   5072      0  0:00:01  0:00:01 --:--:--  5841
+whoois www.eads.com
+IP:  194.97.136.180
+whois 194.97.136.180 ?
+FAI:   SPACE-TRIPLEX-NET-1
+net range 194.97.136.180 ?
+NET RANGE:   194.97.136.0 - 194.97.136.255
+ipcalc range NET RANGE:   194.97.136.0 - 194.97.136.255 ?
+194.97.136.0/24
+ipcalc dev : 194.97.136.0 24
+ipcalcmaster: 194.97.136.0
+ipcalcmask: 24
+
