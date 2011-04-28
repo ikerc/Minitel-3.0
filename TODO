@@ -1,2 +1,6 @@
 Faire en sorte que le soft fasse des querry sur le ripe et non via google j'ai de la chance+whois
 pour récupérer tous les blocs de l'entreprise
+
+bug match ip -> wikimédia aparait
+bug plusieurs ip dans le range -> heu ipcalc est pas sencé renvoyé plusieurs blocks quand on lui demande d'en calculer un :/
+bug pas de données dans le whois -> échappé la réponse.
