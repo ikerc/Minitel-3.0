@@ -15,7 +15,6 @@
                 "213.86.181.128" => 25,         // FAI:   NET-GB-ORACLE-IA
                 "213.86.181.128" => 25,         // FAI:   NET-GB-ORACLE-IA
                 "79.140.93.128" => 25,         // FAI:   AKAMAI-OVER-SEABONE
-                "91.198.174.0" => 24,         // FAI:   WIKIMEDIA-EU-NET
                 "81.200.177.0" => 24,         // FAI:   FR-PUBLICIS-TECHNOLOGY-20060608
                 "193.201.76.0" => 23,         // FAI:   NET-ATOSWORLDLINE
                 "192.168.1.1" => 32,         // FAI: 	SAINT-GOBAIN
